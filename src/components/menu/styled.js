@@ -6,7 +6,7 @@ export const Component = styled.header`
 }
 
 .navBar{
-    background-color: var(--black);
+    background-color: var(--neutral-gray);
     
     .toolbar{
         width: 100%;
@@ -44,7 +44,7 @@ export const Component = styled.header`
     margin: 0;
     
     :last-child{
-        background-color: var(--red);
+        background-color: var(--primary-blue);
         padding: 0.5rem 2rem;
         border-radius: 5px;
         transition: 0.3s;

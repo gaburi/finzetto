@@ -41,36 +41,36 @@ function Navbar() {
 
   return (
     <Component>
-    <AppBar position="static" className="navBar">
-      <CssBaseline />
-      <Toolbar className="toolbar">
-        <Typography variant="h3" >
-          <a href="/">
-            
-             Gabriel Finzetto
+      <AppBar position="static" className="navBar">
+        <CssBaseline />
+        <Toolbar className="toolbar">
+          <Typography variant="h3" >
+            <a href="/">
+
+              Gabriel Finzetto
             </a>
-          
-        </Typography>
-        {isMobile ? (
-          <DrawerComponent />
-        ) : (
-          <div className={classes.navlinks}>
-            <Link to="/" className={classes.link}>
-              Home
-            </Link>
-            <Link to="/about" className={classes.link}>
-              About
-            </Link>
-            <Link to="/contact" className={classes.link}>
-              Contact
-            </Link>
-            <Link to="/faq" className={classes.link}>
-              FAQ
-            </Link>
-          </div>
-        )}
-      </Toolbar>
-    </AppBar>
+
+          </Typography>
+          {isMobile ? (
+            <DrawerComponent />
+          ) : (
+            <div className={classes.navlinks}>
+              <Link to="/" className={classes.link}>
+                Home
+              </Link>
+              <Link to="/about" className={classes.link}>
+                About
+              </Link>
+              <Link to="/contact" className={classes.link}>
+                Contact
+              </Link>
+              <Link to="#faq" className={classes.link}>
+                FAQ
+              </Link>
+            </div>
+          )}
+        </Toolbar>
+      </AppBar>
     </Component>
   );
 }

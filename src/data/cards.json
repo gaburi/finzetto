@@ -1,0 +1,19 @@
+{
+  "cards": [
+    {
+      "icon": "lock",
+      "titulo": "Proteção Avançada",
+      "texto": "Blindagem contra ameaças digitais, garantindo a integridade de seus dados e operações."
+    },
+    {
+      "icon": "sensors",
+      "titulo": "Conformidade \n e Atualização",
+      "texto": "Mantenha-se em conformidade com a regulação e esteja à frente com as mais recentes soluções de segurança."
+    },
+    {
+      "icon": "work",
+      "titulo": "Consultoria Especializada",
+      "texto": "Orientação de experts para fortalecer sua infraestrutura e práticas de TI."
+    }
+  ]
+}

@@ -8,32 +8,32 @@ export default function Slider() {
 
   const theme = createTheme({
     status: {
-      danger: '#e53e3e',
+      danger: '#e53e3e',  // Usando a cor vermelha como exemplo para 'danger'
     },
     palette: {
       primary: {
-        main: '#e53e3e',
-        darker: '#053e85',
+        main: '#3B82F6',  // Exemplo de cor azul para 'primary'
+        darker: '#1E3A8A',  // Exemplo de cor azul mais escura para 'darker'
       },
       neutral: {
-        main: '#64748B',
-        contrastText: '#fff',
+        main: '#64748B',  // Exemplo de cor neutra
+        contrastText: '#F9FAFB',  // Exemplo de cor neutra clara
       },
     },
   });
+
+
 
   return (
     <Component>
       <hgroup>
         <h1>
-          Cyber Security<br />
-          Solution
+          Soluções de<br />
+          Cyber Segurança
         </h1>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nunc sagittis mauris ac enim sagittis dignissim.
-          Praesent egestas, urna quis.
+          Serviços especializados de pentesting para fortalecer sua segurança cibernética.
         </p>
 
         <ThemeProvider theme={theme}>
@@ -57,6 +57,7 @@ export default function Slider() {
       </hgroup>
 
       <div className="img">
+
 
       </div>
 

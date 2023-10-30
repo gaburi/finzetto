@@ -1,0 +1,36 @@
+{
+  "FAQ": [
+    {
+      "question": "O que é pentesting (teste de penetração)?",
+      "answer": "O pentesting, ou teste de penetração, é um processo em que especialistas em segurança simulam ataques cibernéticos em sistemas, redes e aplicações para identificar vulnerabilidades antes que invasores reais possam explorá-las."
+    },
+    {
+      "question": "Por que minha empresa precisa de um serviço de pentesting?",
+      "answer": "O pentesting ajuda a descobrir pontos fracos em sua infraestrutura de TI antes que invasores o façam. Além de identificar vulnerabilidades, oferecemos recomendações para corrigi-las, fortalecendo a defesa de seus ativos digitais."
+    },
+    {
+      "question": "Como é feito o pentesting?",
+      "answer": "Utilizamos uma combinação de ferramentas automatizadas e técnicas manuais para simular ataques cibernéticos. Após a análise, fornecemos um relatório detalhado com nossas descobertas e recomendações."
+    },
+    {
+      "question": "O pentesting pode prejudicar minha operação ou meus dados?",
+      "answer": "Nossa equipe trabalha de maneira ética e responsável, garantindo que o teste não afete suas operações diárias ou comprometa seus dados. Todo o processo é feito em coordenação com sua equipe de TI."
+    },
+    {
+      "question": "Qual é a duração média de um pentest?",
+      "answer": "A duração pode variar dependendo da complexidade do ambiente e do escopo definido. Em média, um projeto de pentesting pode levar de uma semana a um mês."
+    },
+    {
+      "question": "Quão frequentemente devo realizar pentesting?",
+      "answer": "Recomendamos realizar pentesting pelo menos uma vez por ano. No entanto, se houver mudanças significativas em sua infraestrutura de TI ou se você estiver no setor de alto risco, pode ser necessário fazê-lo com mais frequência."
+    },
+    {
+      "question": "Os resultados do pentest são confidenciais?",
+      "answer": "Sim. Valorizamos a privacidade e segurança de nossos clientes. Todos os resultados e informações são tratados com o mais alto nível de confidencialidade."
+    },
+    {
+      "question": "E se vocês encontrarem muitas vulnerabilidades?",
+      "answer": "Se identificarmos um número significativo de vulnerabilidades, trabalharemos com sua equipe para priorizar as correções e implementar as soluções necessárias. Nosso objetivo é fortalecer sua segurança, não alarmar."
+    }
+  ]
+}

@@ -5,11 +5,11 @@ export const Component = styled.div`
   padding: 1rem;
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-evenly;
 
   ::before {
-    background-color: var(--red);
+    background-color: var(--primary-blue);
     opacity: 0.95;
     width: 500px;
     height: 500px;
@@ -37,7 +37,7 @@ export const Component = styled.div`
     p {
       line-break: auto;
       color: #868686;
-
+      font-size: 18px ;
       padding: 13px 0;
     }
   }
@@ -53,9 +53,9 @@ export const Component = styled.div`
   }
 
   .img {
-    width: 450px;
-    height: 450px;
-    background-color: var(--purple);
+    width: 350px;
+    height: 300px;
+    background-color: var(--primary-light-blue);
     margin-top: 10px;
     animation: vertical-shaking 2s infinite;
     @keyframes vertical-shaking {

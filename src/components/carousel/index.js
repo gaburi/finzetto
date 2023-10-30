@@ -5,28 +5,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+import "swiper/css/autoplay";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 import { Component } from "./styles";
-import Item from "./item";
+
 
 export default function Carousel() {
   return (
     <Component>
       <Swiper
+        spaceBetween={50}
         slidesPerView={3}
-        spaceBetween={20}
-        freeMode={true}
-        pagination={{
-          clickable: true,
+        autoplay={{
+          delay: 2500
         }}
-        modules={[FreeMode, Pagination]}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
+
       >
-        <SwiperSlide>
-          teste
-        </SwiperSlide>
         <SwiperSlide>
           teste
         </SwiperSlide>

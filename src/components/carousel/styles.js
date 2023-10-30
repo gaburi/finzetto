@@ -13,8 +13,9 @@ export const Component = styled.div`
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color: var(--black-lighter);
-    border-radius: 5%;
+    background-color: var(--black);
+    opacity: 0.8;
+    border-radius: 10px;
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
