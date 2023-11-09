@@ -14,6 +14,9 @@ export const GlobalStyle = createGlobalStyle`
 
 }
 :root {
+  --redColor: rgba(244,67,54,1);
+  --blueColor:rgba(33,150,243,1);
+
   --primary-blue: #00E5BC;
   --primary-light-blue: #4DA1FF;
   
@@ -26,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
   --neutral-dark: #05050F;
   --neutral-gray: #14142B;
   --neutral-gray-rgb: 5, 5, 15;
+  --neutral-light-rgb: 255, 255, 255;
   --neutral-mid: #8F99A3;
   --neutral-light: #FFFFFF;
 
@@ -44,7 +48,7 @@ export const GlobalStyle = createGlobalStyle`
 
 body{
   background-color: var(--neutral-gray);
-}
+ }
 
 
 a{

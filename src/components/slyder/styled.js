@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Component = styled.div`
-  background-color: var(--black);
-  padding: 1rem;
+
+  padding: 1rem 1rem 3rem 1rem;
   position: relative;
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
+
 
   ::before {
     background-color: var(--primary-blue);
@@ -24,8 +25,10 @@ export const Component = styled.div`
 
   hgroup {
     z-index: 1;
+    display: flex;
+    flex-direction: column;
 
-    grid-row-gap: 11px;
+    gap: 1.5rem;
     width: 450px;
 
     h1 {
@@ -42,14 +45,9 @@ export const Component = styled.div`
     }
   }
 
-  button,
-  a {
-    width: auto;
+  button{
+    width: 150px;
     padding: 0.5rem 1rem;
-
-    :last-child {
-      margin-left: 10px;
-    }
   }
 
   .img {

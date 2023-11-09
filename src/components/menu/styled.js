@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Component = styled.header`
-&&{
-    background-color: black;
-}
 
 .navBar{
     background-color: var(--neutral-gray);

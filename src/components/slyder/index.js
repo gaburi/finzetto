@@ -38,18 +38,10 @@ export default function Slider() {
 
         <ThemeProvider theme={theme}>
           <Button
-            variant="outlined"
-            color="primary"
-          >
-            View More
-          </Button>
-          <Button
             variant="contained"
             color="primary"
-            href="./curriculum.pdf"
-            download={"curriculum.pdf"}
           >
-            Curriculum
+            Veja mais
           </Button>
 
         </ThemeProvider>

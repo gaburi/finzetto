@@ -14,7 +14,9 @@ export function Targe() {
 
   return (
     <Component>
+      <div className="safe">
       <img src="/safe.png" alt="Cofre" />
+      </div>
       <div className="tRight">
         <h2>Não Fique Para Trás!</h2>
         <p>No mundo da cibersegurança, estar atualizado e protegido é essencial. Se você deseja proteger seu negócio contra ameaças digitais e melhorar sua postura de segurança, estamos aqui para ajudar.</p>

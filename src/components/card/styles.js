@@ -10,13 +10,11 @@ padding: 1rem;
 
  ::before {
     background-color: var(--primary-light-blue);
-    width: 500px;
+    width: 658px;
     height: 150px;
-    top: 600px;
-    /*border-radius: 50%;*/
+    top: 478px;
     content: "";
     position: absolute;
-    align-self: end;
     z-index:-1;
     filter: blur(150px);
   }
