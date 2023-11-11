@@ -21,10 +21,29 @@ export const Component = styled.div`
       width: 350px;
       transform: scaleX(-1);
       margin-top: -80px;
+      animation: vertical-shaking 2s infinite;
+    @keyframes vertical-shaking {
+      0% {
+        transform: translateY(0);
+      }
+      25% {
+        transform: translateY(3px);
+      }
+      50% {
+        transform: translateY(-3px);
+      }
+      75% {
+        transform: translateY(3px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
     }
     ::before {
     content: "";
     background-color: var(--primary-blue);
+    animation: vertical-shaking 2s infinite;
     width: 500px;
     height: 250px;
     top: -80px;

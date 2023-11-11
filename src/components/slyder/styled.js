@@ -7,21 +7,8 @@ export const Component = styled.div`
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-evenly;
+  background: url(/back.jpg) no-repeat fixed center ;
 
-
-  ::before {
-    background-color: var(--primary-blue);
-    opacity: 0.95;
-    width: 500px;
-    height: 500px;
-    right: 10px;
-    top: -64px;
-    border-radius: 50%;
-    content: "";
-    position: absolute;
-    align-self: end;
-    filter: blur(220px);
-  }
 
   hgroup {
     z-index: 1;
@@ -32,14 +19,19 @@ export const Component = styled.div`
     width: 450px;
 
     h1 {
-      color: #fff;
+      color: var(--primary-blue);
       font-weight: 900;
       font-size: 45px;
+      text-shadow: 2px 2px #558ABB;
+     
+    }
+    .topTitle{
+       margin-bottom: -47px;
     }
 
     p {
       line-break: auto;
-      color: #868686;
+      color: #fff;
       font-size: 18px ;
       padding: 13px 0;
     }
@@ -48,6 +40,21 @@ export const Component = styled.div`
   button{
     width: 150px;
     padding: 0.5rem 1rem;
+    color: #363636;
+    font-weight: bolder;
+    display: flex;
+    gap: 5px;
+
+    i{
+      color: #363636;
+      font-size: 1.1rem;
+    }
+    :hover{
+      color: #fff;
+      i{
+        color: #fff;
+      }
+    }
   }
 
   .img {
@@ -55,23 +62,6 @@ export const Component = styled.div`
     height: 300px;
     background-color: var(--primary-light-blue);
     margin-top: 10px;
-    animation: vertical-shaking 2s infinite;
-    @keyframes vertical-shaking {
-      0% {
-        transform: translateY(0);
-      }
-      25% {
-        transform: translateY(3px);
-      }
-      50% {
-        transform: translateY(-3px);
-      }
-      75% {
-        transform: translateY(3px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
+    
   }
 `;

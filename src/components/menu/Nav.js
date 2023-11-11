@@ -38,7 +38,12 @@ function Navbar() {
   const classes = useStyles();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
-
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Component>
       <AppBar position="static" className="navBar">
@@ -64,7 +69,7 @@ function Navbar() {
               <Link to="/contact" className={classes.link}>
                 Contact
               </Link>
-              <Link to="#faq" className={classes.link}>
+              <Link to="/" onClick={() => scrollToSection('faq')}>
                 FAQ
               </Link>
             </div>

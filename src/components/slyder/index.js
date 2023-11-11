@@ -12,8 +12,8 @@ export default function Slider() {
     },
     palette: {
       primary: {
-        main: '#3B82F6',  // Exemplo de cor azul para 'primary'
-        darker: '#1E3A8A',  // Exemplo de cor azul mais escura para 'darker'
+        main: '#00E5BC',  // Exemplo de cor azul para 'primary'
+        darker: '#128c7e',  // Exemplo de cor azul mais escura para 'darker'
       },
       neutral: {
         main: '#64748B',  // Exemplo de cor neutra
@@ -27,6 +27,7 @@ export default function Slider() {
   return (
     <Component>
       <hgroup>
+        <p className="topTitle">Temos as melhores</p>
         <h1>
           Soluções de<br />
           Cyber Segurança
@@ -41,6 +42,7 @@ export default function Slider() {
             variant="contained"
             color="primary"
           >
+            <i class="fa fa-share-square-o"></i>
             Veja mais
           </Button>
 

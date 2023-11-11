@@ -13,6 +13,12 @@ export const Component = styled.div`
   
   border-radius: 50%;
   z-index:2;
+  transition: all 0.6s ease;
+  :hover{
+    .whatsapp-ico{
+      background-color: #128c7e;
+    }
+  }
 
   .material-symbols-outlined {
     font-variation-settings:
@@ -25,15 +31,16 @@ export const Component = styled.div`
     cursor: pointer;
     background-color: transparent !important;
     border: none !important;
+    transition: background-color .4s linear;
 
     .whatsapp-ico {   
     fill: white;
     width: 50px;
     height: 50px;
     padding: 3px;
-    background-color: #4dc247;
+    background-color: #25d366;
     border-radius: 50%;
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    box-shadow: 1px 6px 24px 0 rgba(7,94,84,.24);
     position: fixed;
     bottom: 55px;
     right : 20px;

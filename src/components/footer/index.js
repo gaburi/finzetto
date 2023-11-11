@@ -39,7 +39,7 @@ export function Footer() {
       </div>
 
       <div className="copyright">
-        <p>Copyright by <span>Gabriel Oliveira</span></p>
+        <p>Copyright by <a href="http://gabrielvoliveira.com" rel="noreferrer" target="_blank"><span>Gabriel Oliveira</span></a></p>
       </div>
     </Component>
   )

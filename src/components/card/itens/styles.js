@@ -47,14 +47,14 @@ export const Item = styled.div`
       ::before {
     content: "";
     background-color: var(--primary-light-blue);
-    width: 50px;
-    height: 50px;
-    top: 0;
-    left: 0;
+    width: 96px;
+    height: 74px;
+    top: 0px;
+    left: -10px;
     position: absolute;
     border-radius: 50%;
-    filter: blur(50px);
-    z-index:-2;
+    filter: blur(45px);
+    z-index: -2;
   }
   }
 

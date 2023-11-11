@@ -11,8 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   margin: 0;
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
-
-}
+  }
 :root {
   --redColor: rgba(244,67,54,1);
   --blueColor:rgba(33,150,243,1);
@@ -47,7 +46,7 @@ export const GlobalStyle = createGlobalStyle`
 
 
 body{
-  background-color: var(--neutral-gray);
+  background: var(--neutral-gray) no-repeat;
  }
 
 
